@@ -112,4 +112,4 @@ jupyter notebook heart_disease_prediction.ipynb
 ## 👤 Author
 
 **Mohamed Aziz Weili**  
-[LinkedIn](https://www.linkedin.com/in/your-profile) • [GitHub](https://github.com/mohamedazizweili)
+[LinkedIn](www.linkedin.com/in/mohamed-aziz-weili-a49977398) • [GitHub]([https://github.com/mohamedazizweili](https://github.com/mohamedazizweili))
