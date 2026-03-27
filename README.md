@@ -9,7 +9,7 @@ A end-to-end machine learning project that predicts the presence of heart diseas
 Heart disease is one of the leading causes of death worldwide. Early and accurate detection can save lives. This project builds and evaluates machine learning models that predict whether a patient has heart disease based on clinical features such as age, cholesterol level, resting blood pressure, and maximum heart rate.
 
 **Type:** Binary Classification  
-**Dataset:** [UCI Heart Disease Dataset](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-uci)  
+**Dataset:** [UCI Heart Disease Dataset](/kaggle/input/heart-disease/heart_disease_uci.csv)  
 **Best Result:** Logistic Regression — 86% Accuracy | 88% Recall
 
 ---
