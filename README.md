@@ -1,6 +1,6 @@
 # 🫀 Heart Disease Prediction
 
-A end-to-end machine learning project that predicts the presence of heart disease from clinical data, comparing three classification algorithms on the UCI Heart Disease Dataset.
+An end-to-end machine learning project that predicts the presence of heart disease from clinical data, comparing three classification algorithms on the UCI Heart Disease Dataset.
 
 ---
 
@@ -9,18 +9,18 @@ A end-to-end machine learning project that predicts the presence of heart diseas
 Heart disease is one of the leading causes of death worldwide. Early and accurate detection can save lives. This project builds and evaluates machine learning models that predict whether a patient has heart disease based on clinical features such as age, cholesterol level, resting blood pressure, and maximum heart rate.
 
 **Type:** Binary Classification  
-**Dataset:** [UCI Heart Disease Dataset](/kaggle/input/heart-disease/heart_disease_uci.csv)  
-**Best Result:** Logistic Regression — 86% Accuracy | 88% Recall
+**Dataset:** [UCI Heart Disease Dataset](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-uci)  
+**Best Result:** KNN — 82.61% Accuracy | 90.20% Recall
 
 ---
 
 ## 📊 Model Comparison
 
-| Model               | Accuracy | Recall |
-|---------------------|----------|--------|
-| Logistic Regression | **86%**  | **88%**|
-| Random Forest       | 84%      | 82%    |
-| KNN                 | 80%      | 78%    |
+| Model               | Accuracy   | Recall     |
+|---------------------|------------|------------|
+| **KNN**             | **82.61%** | **90.20%** |
+| Random Forest       | 81.52%     | 86.27%     |
+| Logistic Regression | 79.89%     | 85.29%     |
 
 > **Why recall?** In a medical context, missing a true positive (failing to detect heart disease) is far more dangerous than a false alarm. Recall was therefore prioritized over raw accuracy.
 
@@ -91,7 +91,7 @@ cd heart-disease-prediction
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
-3. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-uci) and place it in the project folder
+3. Download the dataset from [Kaggle](/kaggle/input/heart-disease/heart_disease_uci.csv) and place it in the project folder
 
 4. Open and run the notebook
 ```bash
